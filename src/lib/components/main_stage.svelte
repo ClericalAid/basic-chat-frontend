@@ -1,5 +1,5 @@
 <script>
-  import ChatArea from "./chat_area.svelte";
+  import ChatArea from "./chat/chat_area.svelte";
 </script>
 
 
