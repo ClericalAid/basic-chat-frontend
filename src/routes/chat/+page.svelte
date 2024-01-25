@@ -1,9 +1,9 @@
 <script>
-  import Login from "@src/lib/components/pages/login/login_page.svelte";
+  import ChatPage from "@src/lib/components/pages/chat/chat_page.svelte";
 </script>
 
 <main>
-  <Login />
+  <ChatPage />
 </main>
 
 <style lang="postcss">

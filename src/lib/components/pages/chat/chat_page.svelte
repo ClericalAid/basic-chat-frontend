@@ -3,9 +3,7 @@
   import Main from "@src/lib/components/chat/main.svelte";
 </script>
 
-<main>
-  <div class="flex flex-row h-screen w-screen">
-    <FriendList />
-    <Main />
-  </div>
-</main>
+<div class="flex flex-row h-screen w-screen">
+  <FriendList />
+  <Main />
+</div>
