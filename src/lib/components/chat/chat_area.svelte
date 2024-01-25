@@ -1,5 +1,5 @@
 <script>
-  import MessageContainer from "./message_container.svelte";
+  import MessageContainer from "@src/lib/components/chat/message_container.svelte";
 </script>
 
 <div class="h-screen flex flex-col pt-1">

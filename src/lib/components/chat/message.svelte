@@ -1,12 +1,20 @@
 <script>
+  import { marked } from "marked";
+  let value = "Message with markdown support. Check it out: Some words are *italic*, some are **bold**";
+  let username = "Username";
 </script>
 
-<div class="flex-col">
-  <div>
-    Username here | Time goes here
+<div class="flex flex-col">
+  <div class="flex flex-row gap-2 items-baseline">
+    <div class="text-lg">
+      <b>{username}</b>
+    </div>
+    <div class="text-sm text-stone-400">
+      Time goes here
+    </div>
   </div>
   <div>
-    Message goes here
+    {@html marked(value)}
   </div>
 </div>
 

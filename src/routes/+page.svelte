@@ -1,13 +1,9 @@
 <script>
-  import ServerSidebar from "../lib/components/sidebar.svelte";
-  import MainStage from "../lib/components/main_stage.svelte";
+  import ChatPage from "@src/lib/components/pages/chat/chat_page.svelte";
 </script>
 
 <main>
-  <div class="flex flex-row h-screen w-screen">
-    <ServerSidebar />
-    <MainStage />
-  </div>
+  <ChatPage />
 </main>
 
 <style lang="postcss">
