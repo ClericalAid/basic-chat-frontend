@@ -1,5 +1,12 @@
 <script>
   import Login from "@src/lib/components/pages/login/login_page.svelte";
+  import ApiService from "@src/lib/services/api_service";
+  import { onMount } from "svelte";
+
+  onMount(async () =>{
+    const res = await ApiService.fetchHomePage();
+    console.log(res);
+  });
 </script>
 
 <main>

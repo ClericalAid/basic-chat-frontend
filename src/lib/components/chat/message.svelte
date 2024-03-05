@@ -1,6 +1,13 @@
 <script>
   import { marked } from "marked";
-  let value = "Message with markdown support. Check it out: Some words are *italic*, some are **bold**";
+  let value = `
+# Large header here
+Message with markdown support. Check it out: Some words are *italic*, some are **bold**
+
+Let's see what happens with line breaks now.
+
+And then another one
+  `;
   let username = "Username";
 </script>
 
